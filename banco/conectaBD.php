@@ -22,7 +22,7 @@
      $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
      
 //      // Ajuste de fuso horário no MySQL
-     $conn->exec("SE
+     $conn->exec("SET time_zone = '-03:00'");
 
      // Ajuste de fuso horário no PHP
      date_default_timezone_set('America/Sao_Paulo');
