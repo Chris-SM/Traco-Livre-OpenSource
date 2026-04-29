@@ -14,7 +14,6 @@
     
   $host = "sql112.infinityfree.com"; // Seu nome de host no InfinityFree
   $user = "if0_40124757";      // Seu usuário do banco de dados no InfinityFree
-  $a = "tracolivre";        // Sua senha do banco de dados no InfinityFree
   $dbName = "if0_40124757_tracolivre"; // O nome do seu banco de dados no InfinityFree
 
   try {
@@ -23,7 +22,7 @@
      $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
      
 //      // Ajuste de fuso horário no MySQL
-     $conn->exec("SET time_zone = '-03:00'");
+     $conn->exec("SE
 
      // Ajuste de fuso horário no PHP
      date_default_timezone_set('America/Sao_Paulo');
